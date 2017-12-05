@@ -1,0 +1,196 @@
+# Translation of Plugins - Easy Facebook Feed - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Easy Facebook Feed - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-10 16:18:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Easy Facebook Feed - Stable (latest release)\n"
+
+#: includes/class.eff-admin.php:84 includes/class.eff-admin.php:86
+msgid "Easy Facebook Feed Pro"
+msgstr "Easy Facebook Feed Pro"
+
+#. Author of the plugin/theme
+msgid "timwass"
+msgstr "timwass"
+
+#. Description of the plugin/theme
+msgid "Easy Facebook Feed shows your Facebook feed in an easy way!"
+msgstr "Easy Facebook Feed zobrazí příspěvky z Facebooku jednoduchou cestou."
+
+#. Plugin URI of the plugin/theme
+msgid "http://easy-facebook-feed.nl"
+msgstr "http://easy-facebook-feed.nl"
+
+#: includes/class.eff-widget.php:48
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: includes/class.eff-widget.php:17
+msgid "Display your Facebook feed"
+msgstr "Zobrazit Facebook příspěvky"
+
+#: includes/class.eff-post.php:149
+msgid "just now"
+msgstr "právě teď"
+
+#: includes/class.eff-post.php:149
+msgid "ago"
+msgstr "před"
+
+#: includes/class.eff-post.php:134
+msgid "seconds"
+msgstr "sekund"
+
+#: includes/class.eff-post.php:134
+msgid "second"
+msgstr "sekunda"
+
+#: includes/class.eff-post.php:133
+msgid "minutes"
+msgstr "minuty"
+
+#: includes/class.eff-post.php:133
+msgid "minute"
+msgstr "minuta"
+
+#: includes/class.eff-post.php:132
+msgid "hours"
+msgstr "hodin"
+
+#: includes/class.eff-post.php:132
+msgid "hour"
+msgstr "hodina"
+
+#: includes/class.eff-post.php:131
+msgid "days"
+msgstr "dnů"
+
+#: includes/class.eff-post.php:131
+msgid "day"
+msgstr "den"
+
+#: includes/class.eff-post.php:130
+msgid "weeks"
+msgstr "týdnů"
+
+#: includes/class.eff-post.php:130
+msgid "week"
+msgstr "týden"
+
+#: includes/class.eff-post.php:129
+msgid "months"
+msgstr "měsíců"
+
+#: includes/class.eff-post.php:129
+msgid "month"
+msgstr "měsíc"
+
+#: includes/class.eff-post.php:128
+msgid "years"
+msgstr "roků"
+
+#: includes/class.eff-post.php:128
+msgid "year"
+msgstr "rok"
+
+#: includes/class.eff-post.php:15
+msgid "View"
+msgstr "Zobrazit"
+
+#: includes/class.eff-admin.php:290
+msgid "No cache found"
+msgstr "Cache nenalezena"
+
+#: includes/class.eff-admin.php:288
+msgid "The data cache was cleared successfully"
+msgstr "Cache byla úspěšně vyčištěna"
+
+#: includes/class.eff-admin.php:258
+msgid "Manually clear cache"
+msgstr "Manuálně vyčistit cache"
+
+#: includes/class.eff-admin.php:257
+msgid "Clear cache"
+msgstr "Vyčistit cache"
+
+#: includes/class.eff-admin.php:249
+msgid "Time in minutes"
+msgstr "Čas v minutách"
+
+#: includes/class.eff-admin.php:237
+msgid "Number of posts to display"
+msgstr "Počet příspěvků k zobrazení"
+
+#: includes/class.eff-admin.php:225
+msgid "Example: in https://www.facebook.com/bbcnews ‘bbcnews’ is your Facebook page id"
+msgstr "Například: v https://www.facebook.com/bbcnews je &#8222;bbcnews&#8220; ID Facebook stránky"
+
+#: includes/class.eff-admin.php:214
+msgid "Add [easy_facebook_feed] on your page to display the facebook feed on your page. Or you can add the Easy Facebook Feed widget to your widget area."
+msgstr "Přidejte [easy_facebook_feed] na stránku kde chcete zobrazit příspěvky z Facebooku. Můžete využít i widget."
+
+#: includes/class.eff-admin.php:214
+msgid "Quickstart:"
+msgstr "Rychlý start:"
+
+#: includes/class.eff-admin.php:202
+msgid "Invalid refresh time value"
+msgstr "Neplatná hodnota intervalu obnovení"
+
+#: includes/class.eff-admin.php:195
+msgid "Invalid Post limit value"
+msgstr "Neplatná hodnota počtu příspěvků"
+
+#: includes/class.eff-admin.php:188
+msgid "Invalid Facebook page id"
+msgstr "Neplatné ID Facebook stránky"
+
+#: includes/class.eff-admin.php:165
+msgid "Clear"
+msgstr "Vyčistit"
+
+#: includes/class.eff-admin.php:157
+msgid "Refresh time"
+msgstr "Interval obnovení"
+
+#: includes/class.eff-admin.php:150
+msgid "Caching"
+msgstr "Caching"
+
+#: includes/class.eff-admin.php:141
+msgid "Number of posts"
+msgstr "Počet příspěvků"
+
+#: includes/class.eff-admin.php:133
+msgid "Facebook page ID"
+msgstr "ID Facebook stránky"
+
+#: includes/class.eff-admin.php:126
+msgid "General"
+msgstr "Hlavní"
+
+#: includes/class.eff-admin.php:82
+msgid "Settings"
+msgstr "Nastavení"
+
+#. #-#-#-#-#  easy-facebook-feed-code.pot (Easy Facebook Feed 3.0.13) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/class.eff-admin.php:77 includes/class.eff-widget.php:14
+#: includes/class.eff-widget.php:43
+msgid "Easy Facebook Feed"
+msgstr "Easy Facebook Feed"
+
+#: includes/class.eff-admin.php:41
+msgid "Thanks :)"
+msgstr "Děkuji :-)"
+
+#: includes/class.eff-admin.php:41
+msgid "If you like <strong>Easy Facebook Feed</strong> please leave us a %s rating. A huge thanks in advance!"
+msgstr "Pokud se ti líbí <strong>Easy Facebook Feed</strong> dej mu %s hodnocení."

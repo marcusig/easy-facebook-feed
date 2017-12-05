@@ -1,0 +1,108 @@
+.eff-panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    p {
+        padding: 0;
+        margin: 0 0 10px 0;
+    }
+    .eff-panel-heading {
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+        background-color: #f5f5f5;
+        border-left: 1px;
+        border-top: 1px;
+        border-right: 1px;
+        border-bottom: 0;
+        border-style: solid;
+        border-color: #ddd;
+        overflow: hidden;
+        height: 40px;
+        a {
+            margin-left: 10px;
+            overflow: hidden;
+            line-height: 40px !important;
+        }
+        img {
+            margin: 0;
+            float: left;
+            height: 40px;
+        }
+    }
+    .eff-panel-body {
+        border: 1px #ddd solid;
+        padding: 15px;
+        p {
+            overflow: hidden;
+        }
+        > p {
+            > a {
+                white-space: nowrap;
+            }
+        }
+        .eff-panel-link {
+            border: 1px #ddd solid;
+            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+            p {
+                font-weight: lighter;
+            }
+            p, h6 {
+                margin: 10px;
+                padding: 0;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .eff-panel-footer {
+        padding: 0 10px;
+        background-color: #f5f5f5;
+        border-left: 1px;
+        border-top: 0;
+        border-bottom: 1px;
+        border-right: 1px;
+        border-style: solid;
+        border-color: #ddd;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        overflow: hidden;
+        height: 40px;
+        line-height: 40px;
+        .eff-time {
+            float: left;
+            margin-left: 5px;
+            i {
+                margin-right: 5px;
+                color: #777777;
+            }
+        }
+        .eff-view {
+            float: right;
+            a {
+                margin-right: 5px;
+                i {
+                    margin-right: 5px;
+                    color: #777777;
+                }
+            }
+        }
+
+    }
+}
+
+.eff-error {
+    border: 1px dotted black;
+    background: #FDF2AB;
+    padding: 20px;
+    h5 {
+        color: red;
+        margin: 0;
+    }
+    p {
+        margin: 0;
+    }
+}

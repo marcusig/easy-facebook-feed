@@ -1,0 +1,124 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2012.
+# Tim, 2017.
+# Tim, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: easy-facebook-feed 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-06 13:46-0400\n"
+"PO-Revision-Date: 2017-05-25 20:50+0200\n"
+"Last-Translator: Tim <>\n"
+"Language-Team: none\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "year"
+msgstr "jaar"
+
+msgid "years"
+msgstr "jaren"
+
+msgid "month"
+msgstr "maand"
+
+msgid "months"
+msgstr "maanden"
+
+msgid "week"
+msgstr "week"
+
+msgid "weeks"
+msgstr "weken"
+
+msgid "day"
+msgstr "dag"
+
+msgid "days"
+msgstr "dagen"
+
+msgid "hour"
+msgstr "uur"
+
+msgid "hours"
+msgstr "uur"
+
+msgid "minute"
+msgstr "minuut"
+
+msgid "minutes"
+msgstr "minuten"
+
+msgid "second"
+msgstr "seconde"
+
+msgid "seconds"
+msgstr "seconden"
+
+msgid "ago"
+msgstr "geleden"
+
+msgid "just now"
+msgstr "pas geleden"
+
+msgid "View"
+msgstr "Bekijk"
+
+msgid "Easy Facebook Feed"
+msgstr "Easy Facebook Feed"
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "Display"
+msgstr "Weergave"
+
+msgid "Facebook page ID"
+msgstr "Facebook pagina ID"
+
+msgid "Number of posts"
+msgstr "Aantal berichten"
+
+msgid "Number of posts to display"
+msgstr "Aantal berichten om weer te geven"
+
+msgid "Time in minutes"
+msgstr "Tijd in minuten"
+
+msgid "Refresh time"
+msgstr "Vernieuwingstijd"
+
+msgid "Clear"
+msgstr "Vernieuw"
+
+msgid "Clear cache"
+msgstr "Vernieuw cache"
+
+msgid "Manually clear cache"
+msgstr "Vernieuw de cache handmatig"
+
+msgid "Example: in https://www.facebook.com/bbcnews ‘bbcnews’ is your Facebook page id"
+msgstr ""
+"Voorbeeld: in https://www.facebook.com/bbcnews is ‘bbcnews’ het Facebook "
+"pagina id"
+
+msgid "The data cache was cleared successfully"
+msgstr "De cache is succesvol vernieuwd"
+
+msgid "No cache found"
+msgstr "Geen cache gevonden"
+
+msgid "Add [easy_facebook_feed] on your page to display the facebook feed on your page. Or you can add the Easy Facebook Feed widget to your widget area."
+msgstr ""
+"Voeg de shortcode [easy_facebook_feed] toe aan een pagina om de gewenste "
+"facebook feed te tonen of voeg Easy Facebook Feed toe als widget."

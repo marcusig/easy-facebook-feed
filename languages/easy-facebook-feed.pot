@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2017-05-09 21:28+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+msgid "year"
+msgstr ""
+
+msgid "years"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "months"
+msgstr ""
+
+msgid "week"
+msgstr ""
+
+msgid "weeks"
+msgstr ""
+
+msgid "day"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "minutes"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "ago"
+msgstr ""
+
+msgid "just now"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Easy Facebook Feed"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Facebook page ID"
+msgstr ""
+
+msgid "Number of posts"
+msgstr ""
+
+msgid "Number of posts to display"
+msgstr ""
+
+msgid "Time in minutes"
+msgstr ""
+
+msgid "Refresh time"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Clear cache"
+msgstr ""
+
+msgid "Manually clear cache"
+msgstr ""
+
+msgid "Example: in https://www.facebook.com/bbcnews ‘bbcnews’ is your Facebook page id"
+msgstr ""
+
+msgid "The data cache was cleared successfully"
+msgstr ""
+
+msgid "No cache found"
+msgstr ""
+
+msgid "Add [easy_facebook_feed] on your page to display the facebook feed on your page. Or you can add the Easy Facebook Feed widget to your widget area."
+msgstr ""

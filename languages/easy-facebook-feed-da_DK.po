@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Facebook Feed\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-06-20 07:58+0000\n"
+"PO-Revision-Date: 2017-06-20 08:12+0000\n"
+"Last-Translator: mathias <mathias@schjott.dk>\n"
+"Language-Team: Danish\n"
+"Language: da-DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Generator: Loco - https://localise.biz/"
+
+msgid "Display"
+msgstr ""
+
+msgid "Refresh time"
+msgstr "Genindlæs"
+
+msgid "The data cache was cleared successfully"
+msgstr "Cache blev ryddet, uden problemer"
+
+msgid "No cache found"
+msgstr "Ingen cache fundet"
+
+msgid "year"
+msgstr "år"
+
+msgid "years"
+msgstr "år"
+
+msgid "month"
+msgstr "måned"
+
+msgid "months"
+msgstr "måneder"
+
+msgid "week"
+msgstr "uge"
+
+msgid "weeks"
+msgstr "uger"
+
+msgid "day"
+msgstr "dag"
+
+msgid "days"
+msgstr "dage"
+
+msgid "hour"
+msgstr "time"
+
+msgid "hours"
+msgstr "timer"
+
+msgid "minute"
+msgstr "minut"
+
+msgid "minutes"
+msgstr "minutter"
+
+msgid "second"
+msgstr "sekund"
+
+msgid "seconds"
+msgstr "sekunder"
+
+msgid "ago"
+msgstr "siden"
+
+msgid "just now"
+msgstr "lige nu"
+
+msgid "View"
+msgstr "Vis"
+
+msgid "Easy Facebook Feed"
+msgstr "Simpelt Facebook Feed"
+
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgid "General"
+msgstr "Generelt"
+
+msgid "Facebook page ID"
+msgstr "Facebook side ID"
+
+msgid "Number of posts"
+msgstr "Antal indlæg"
+
+msgid "Number of posts to display"
+msgstr "Antal indlæg, der skal vises"
+
+msgid "Time in minutes"
+msgstr "Tid i minutter"
+
+msgid "Clear"
+msgstr "Ryd cache"
+
+msgid "Clear cache"
+msgstr "Ryd cache"
+
+msgid "Manually clear cache"
+msgstr "Ryd cache manuelt"
+
+msgid ""
+"Example: in https://www.facebook.com/bbcnews ‘bbcnews’ is your Facebook page "
+"id"
+msgstr ""
+"Eksempel: i https://www.facebook.com/bbcnews er ‘bbcnews’ dit Facebook's "
+"side id"
+
+msgid ""
+"Add [easy_facebook_feed] on your page to display the facebook feed on your "
+"page. Or you can add the Easy Facebook Feed widget to your widget area."
+msgstr ""
+"Tilføj [easy_facebook_feed] til din side for at vise Facebook feed på din "
+"hjemmeside. Eller tilføj den som en widget under \"Widgets\"."
