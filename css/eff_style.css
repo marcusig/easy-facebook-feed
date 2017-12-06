@@ -50,31 +50,41 @@
       display: block;
       overflow: hidden;
       height: 300px; }
-    .eff-panel .eff-panel-body .eff-event-content .eff-event-header {
+    .eff-panel .eff-panel-body .eff-event-content .eff-event-header,
+    .eff-panel .eff-panel-body .eff-panel-link .eff-event-content .eff-event-header {
       display: flex;
       align-items: center; }
-      .eff-panel .eff-panel-body .eff-event-content .eff-event-header h4 {
+      .eff-panel .eff-panel-body .eff-event-content .eff-event-header h4,
+      .eff-panel .eff-panel-body .eff-panel-link .eff-event-content .eff-event-header h4 {
         font-size: 1.4em;
         margin: 0 .5em 0 0;
         padding: 0; }
-        .eff-panel .eff-panel-body .eff-event-content .eff-event-header h4 a {
+        .eff-panel .eff-panel-body .eff-event-content .eff-event-header h4 a,
+        .eff-panel .eff-panel-body .eff-panel-link .eff-event-content .eff-event-header h4 a {
           color: inherit;
           text-decoration: none; }
-          .eff-panel .eff-panel-body .eff-event-content .eff-event-header h4 a:hover {
+          .eff-panel .eff-panel-body .eff-event-content .eff-event-header h4 a:hover,
+          .eff-panel .eff-panel-body .eff-panel-link .eff-event-content .eff-event-header h4 a:hover {
             text-decoration: underline; }
-    .eff-panel .eff-panel-body .eff-event-content p.date {
+    .eff-panel .eff-panel-body .eff-event-content p.date,
+    .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date {
       margin: 1.4em;
       min-width: 2.2em; }
       .eff-panel .eff-panel-body .eff-event-content p.date .day,
-      .eff-panel .eff-panel-body .eff-event-content p.date .month {
+      .eff-panel .eff-panel-body .eff-event-content p.date .month,
+      .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date .day,
+      .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date .month {
         display: block;
         text-align: center; }
-      .eff-panel .eff-panel-body .eff-event-content p.date .day {
+      .eff-panel .eff-panel-body .eff-event-content p.date .day,
+      .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date .day {
         font-size: 1.6em; }
-      .eff-panel .eff-panel-body .eff-event-content p.date .month {
+      .eff-panel .eff-panel-body .eff-event-content p.date .month,
+      .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date .month {
         text-transform: uppercase;
         font-size: 0.8em; }
-    .eff-panel .eff-panel-body .eff-event-content .eff-event-link {
+    .eff-panel .eff-panel-body .eff-event-content .eff-event-link,
+    .eff-panel .eff-panel-body .eff-panel-link .eff-event-content .eff-event-link {
       border-top: 1px solid #efefef;
       font-size: 80%;
       margin: 0;

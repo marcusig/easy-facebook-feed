@@ -30,6 +30,7 @@
             height: 40px;
         }
     }
+    
     .eff-panel-body {
         border: 1px #ddd solid;
         padding: 15px;
@@ -65,7 +66,8 @@
             height: 300px;
         }
 
-        .eff-event-content {
+        .eff-event-content,
+        .eff-panel-link .eff-event-content {
             .eff-event-header {
                 display: flex;
                 align-items: center;
