@@ -55,15 +55,17 @@ class Eff
             $con = new EffConnect();
             $feed = $con->eff_get_page_feed($id, $shortcode_atts['limit']);
             $page = $con->eff_get_page($id);
-
-            if (isset($feed->error)) {
-                return $this->error->print_error_message($feed->error->message);
+            $result = '';
+            //handles both possible errors 
+            if( isset($feed->error) || isset($page->error) ) {
+                if( isset($feed->error) ){
+                    $result .= $this->error->print_error_message($feed->error->message);
+                }
+                if( isset($page->error) ) {
+                    $result .= $this->error->print_error_message($page->error->message);
+                }
+                return $result;
             }
-
-            if (isset($page->error)) {
-                return $this->error->print_error_message($page->error->message);
-            }
-
             foreach ($feed->data as $key => $data) {
                 $postTemplate = $this->post->eff_makePost($data, $page);
 
@@ -81,7 +83,12 @@ class Eff
                         $items[$data->created_time] = Template::merge($postTemplate, $videoTemplate);
                         break;
                     case 'event':
-                        $eventTemplate = $this->post->eff_makeEvent($data);
+                        $eventDetails = $con->eff_get_event_details($data->object_id);
+                        // echo '<pre>';
+                        // var_dump( $eventDetails );
+                        // echo '</pre>';
+                                
+                        $eventTemplate = $this->post->eff_makeEvent($data, $eventDetails);
                         $items[$data->created_time] = Template::merge($postTemplate, $eventTemplate);
                         break;
                     case 'status':
@@ -108,7 +115,7 @@ class Eff
      */
     public function eff_stylesheet()
     {
-        wp_register_style('eff_style', plugins_url('../css/eff_style.css?8', __FILE__));
+        wp_register_style('eff_style', trailingslashit(EFF_PLUGIN_URL) .'css/eff_style.css', null, '3.0.15' );
         wp_enqueue_style('eff_style');
     }
 

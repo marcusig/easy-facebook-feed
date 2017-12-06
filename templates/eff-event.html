@@ -1,5 +1,10 @@
 <div class='eff-panel-link'>
     <a href='{{data-link}}' target='_blank'>{{data-content}}</a>
-    <h6><a href='{{data-link}}' target='_blank'> {{data-name}}</a></h6>
-    <p>{{data-description}}</p>
+    <div class="eff-event-content">
+        <div class="eff-event-header">
+            <p class="date"><span class="day">{{data-day}}</span><span class="month">{{data-month}}</span></p>
+            <h4><a href='{{data-link}}' target='_blank'> {{data-name}}</a></h4>
+        </div>
+        {{data-ticket}}
+    </div>
 </div>

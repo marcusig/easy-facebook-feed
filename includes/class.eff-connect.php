@@ -18,9 +18,9 @@ class EffConnect
     {
         $fields = 'link,name,cover,picture';
         $accessToken = $this->accessToken;
-        $url = "https://graph.facebook.com/v2.6/{$pageId}?fields={$fields}&access_token={$accessToken}";
+        //updated graph Version (no changes to the api we use)
+        $url = "https://graph.facebook.com/v2.11/{$pageId}?fields={$fields}&access_token={$accessToken}";
         $page = $this->eff_connect($url);
-
         return $page;
     }
 
@@ -32,13 +32,24 @@ class EffConnect
     public function eff_get_page_feed($pageId, $postLimit)
     {
         $accessToken = $this->accessToken;
-        $fields = 'full_picture,type,message,link,name,description,from,source,created_time,permalink_url';
+        // added object_id to the fields
+        $fields = 'full_picture,type,message,link,name,description,from,source,created_time,permalink_url,object_id';
         $fields = apply_filters('effp-page-feed-fields', $fields);
-        $url = "https://graph.facebook.com/v2.6/{$pageId}/posts?fields={$fields}&access_token={$accessToken}&limit={$postLimit}";
+        $url = "https://graph.facebook.com/v2.11/{$pageId}/posts?fields={$fields}&access_token={$accessToken}&limit={$postLimit}";
         $feed = $this->eff_connect($url);
-
         return $feed;
     }
+    // get event details
+    public function eff_get_event_details($eventId)
+    {
+        $accessToken = $this->accessToken;
+        $fields = 'description,name,start_time,event_times,ticket_uri,cover,timezone,place';
+        $fields = apply_filters('effp-event-fields', $fields);
+        $url = "https://graph.facebook.com/v2.11/{$eventId}?fields={$fields}&access_token={$accessToken}";
+        $event = $this->eff_connect($url);
+        return $event;
+    }
+
 
     /**
      * @param $url
@@ -63,8 +74,14 @@ class EffConnect
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // disable ssl verifypeer to avoid trouble on some configs
         $json = curl_exec($ch);
         if ($json === false) {
-            echo $this->error->print_error_message(curl_error($ch));
-            exit();
+            //echo $this->error->print_error_message(curl_error($ch));
+            // returns the error instead of echo and exit
+            $arr = array('error' => array('message' => curl_error($ch)));
+            $json = json_encode($arr);
+            
+            curl_close($ch);
+            return $json;
+            //exit(); // exit kills the rest of the website from rendering. 
         }
         curl_close($ch);
 

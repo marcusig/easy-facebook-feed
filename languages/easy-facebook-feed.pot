@@ -116,3 +116,6 @@ msgstr ""
 
 msgid "Add [easy_facebook_feed] on your page to display the facebook feed on your page. Or you can add the Easy Facebook Feed widget to your widget area."
 msgstr ""
+
+msgid "Get your tickets on %1$s"
+msgstr ""

@@ -48,7 +48,7 @@
             p {
                 font-weight: lighter;
             }
-            p, h6 {
+            p:not(.date), h6 {
                 margin: 10px;
                 padding: 0;
             }
@@ -57,6 +57,56 @@
             width: 100%;
             height: auto;
         }
+
+        /* event styles */
+        span.eff-link-picture {
+            display: block;
+            overflow: hidden;
+            height: 300px;
+        }
+
+        .eff-event-content {
+            .eff-event-header {
+                display: flex;
+                align-items: center;
+                h4 {
+                    font-size: 1.4em;
+                    margin: 0 .5em 0 0;
+                    padding: 0;
+                    a {
+                        color: inherit;
+                        text-decoration: none;
+                        &:hover {
+                            text-decoration: underline;
+                        }            
+                    }
+                }
+            }
+            p.date {
+                margin: 1.4em;
+                min-width: 2.2em;
+                .day,
+                .month{
+                    display: block;
+                    text-align: center;
+                }
+                .day{
+                    font-size: 1.6em;
+                }
+                .month{
+                    text-transform: uppercase;
+                    font-size: 0.8em;
+                }
+            }
+            .eff-event-link {
+                border-top: 1px solid #efefef;
+                font-size: 80%;
+                margin: 0;
+                padding: 10px;
+            }
+        }
+        
+
     }
     .eff-panel-footer {
         padding: 0 10px;
