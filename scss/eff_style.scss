@@ -87,12 +87,14 @@
             p.date {
                 margin: 1.4em;
                 min-width: 2.2em;
+                font-weight: normal;
                 .day,
                 .month{
                     display: block;
-                    text-align: center;
+                    text-align: center; 
+                    line-height: 1;
                 }
-                .day{
+                .day{ 
                     font-size: 1.6em;
                 }
                 .month{

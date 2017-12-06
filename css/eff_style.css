@@ -69,13 +69,15 @@
     .eff-panel .eff-panel-body .eff-event-content p.date,
     .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date {
       margin: 1.4em;
-      min-width: 2.2em; }
+      min-width: 2.2em;
+      font-weight: normal; }
       .eff-panel .eff-panel-body .eff-event-content p.date .day,
       .eff-panel .eff-panel-body .eff-event-content p.date .month,
       .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date .day,
       .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date .month {
         display: block;
-        text-align: center; }
+        text-align: center;
+        line-height: 1; }
       .eff-panel .eff-panel-body .eff-event-content p.date .day,
       .eff-panel .eff-panel-body .eff-panel-link .eff-event-content p.date .day {
         font-size: 1.6em; }
